@@ -11,12 +11,12 @@ describe("calculateTax", () => {
     assert.strictEqual(calculateTax(11999), 0);
   });
 
-//   // Test 2: 20% tax for earnings between 12,000 and 36,000
-//   it("should return 20% of earnings for income between 12,000 and 36,000", () => {
-//     assert.strictEqual(calculateTax(12000), 2400); // 0.2 * 12000
-//     assert.strictEqual(calculateTax(20000), 4000); // 0.2 * 20000
-//     assert.strictEqual(calculateTax(35999), 7199.8); // 0.2 * 35999
-//   });
+  // Test 2: 20% tax for earnings between 12,000 and 36,000
+  it("should return 20% of earnings for income between 12,000 and 36,000", () => {
+    assert.strictEqual(calculateTax(12000), 2400); // 0.2 * 12000
+    assert.strictEqual(calculateTax(20000), 4000); // 0.2 * 20000
+    assert.strictEqual(calculateTax(35999), 7199.8); // 0.2 * 35999
+  });
 
 //   // Test 3: 40% tax for earnings above 36,000
 //   it("should return 40% of earnings for income above 36,000", () => {
