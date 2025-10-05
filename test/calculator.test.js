@@ -1,4 +1,4 @@
-// import calculateTax from '../calculator.js';
+import calculateTax from '../calculator.js';
 import assert from 'assert';
 import { describe, it } from 'mocha';
 
